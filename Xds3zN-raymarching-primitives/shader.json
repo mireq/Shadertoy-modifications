@@ -1,0 +1,30 @@
+{
+	"ver": "0.1",
+	"info": {
+		"id": "Xds3zN",
+		"date": "1364255835",
+		"viewed": 407090,
+		"name": "Raymarching - Primitives",
+		"username": "iq",
+		"description": "A set of raw primitives. All except the ellipsoid are exact euclidean distances. More info here: [url=http://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm]http://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm[/url]",
+		"likes": 951,
+		"published": 3,
+		"flags": 0,
+		"tags": []
+	},
+	"renderpass": [
+		{
+			"inputs": [],
+			"outputs": [
+				{
+					"id": "4dfGRr",
+					"channel": 0
+				}
+			],
+			"code": "file://image.frag",
+			"name": "Image",
+			"description": "",
+			"type": "image"
+		}
+	]
+}
