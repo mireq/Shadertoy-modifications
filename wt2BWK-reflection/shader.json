@@ -1,0 +1,38 @@
+{
+	"ver": "0.1",
+	"info": {
+		"id": "wt2BWK",
+		"date": "1599904865",
+		"viewed": 57,
+		"name": "reflection",
+		"username": "nerumae3",
+		"description": " ",
+		"likes": 10,
+		"published": 1,
+		"flags": 8,
+		"tags": []
+	},
+	"renderpass": [
+		{
+			"inputs": [],
+			"outputs": [
+				{
+					"id": "4dfGRr",
+					"channel": 0
+				}
+			],
+			"code": "file://image.frag",
+			"name": "Image",
+			"description": "",
+			"type": "image"
+		},
+		{
+			"inputs": [],
+			"outputs": [],
+			"code": "file://sound.frag",
+			"name": "Sound",
+			"description": "",
+			"type": "sound"
+		}
+	]
+}
