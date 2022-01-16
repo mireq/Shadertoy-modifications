@@ -1,0 +1,31 @@
+{
+	"ver": "0.1",
+	"info": {
+		"id": "NlKXWt",
+		"date": "1641647915",
+		"viewed": 301,
+		"name": "Extruded Mobius Spiral",
+		"username": "Shane",
+		"description": "An extruded double Mobius spiral.",
+		"likes": 44,
+		"published": 3,
+		"flags": 0,
+		"usePreview": 0,
+		"tags": []
+	},
+	"renderpass": [
+		{
+			"inputs": [],
+			"outputs": [
+				{
+					"id": "4dfGRr",
+					"channel": 0
+				}
+			],
+			"code": "file://image.frag",
+			"name": "Image",
+			"description": "",
+			"type": "image"
+		}
+	]
+}
