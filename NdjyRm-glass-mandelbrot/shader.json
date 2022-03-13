@@ -1,0 +1,83 @@
+{
+	"ver": "0.1",
+	"info": {
+		"id": "NdjyRm",
+		"date": "1643286499",
+		"viewed": 289,
+		"name": "Glass Mandelbrot",
+		"username": "amhall",
+		"description": "Looking through glass with the Mandelbrot set imprinted. Mouse to rotate the cubemap. See comments to speed up.",
+		"likes": 22,
+		"published": 3,
+		"flags": 32,
+		"usePreview": 0,
+		"tags": []
+	},
+	"renderpass": [
+		{
+			"inputs": [
+				{
+					"id": "XsX3zn",
+					"filepath": "/media/a/94284d43be78f00eb6b298e6d78656a1b34e2b91b34940d02f1ca8b22310e8a0.png",
+					"previewfilepath": "/media/ap/94284d43be78f00eb6b298e6d78656a1b34e2b91b34940d02f1ca8b22310e8a0.png",
+					"type": "cubemap",
+					"channel": 1,
+					"sampler": {
+						"filter": "mipmap",
+						"wrap": "clamp",
+						"vflip": "false",
+						"srgb": "false",
+						"internal": "byte"
+					},
+					"published": 1
+				},
+				{
+					"id": "4dXGR8",
+					"filepath": "/media/previz/buffer00.png",
+					"previewfilepath": "/media/previz/buffer00.png",
+					"type": "buffer",
+					"channel": 0,
+					"sampler": {
+						"filter": "linear",
+						"wrap": "clamp",
+						"vflip": "true",
+						"srgb": "false",
+						"internal": "byte"
+					},
+					"published": 1
+				}
+			],
+			"outputs": [
+				{
+					"id": "4dfGRr",
+					"channel": 0
+				}
+			],
+			"code": "file://image.frag",
+			"name": "Image",
+			"description": "",
+			"type": "image"
+		},
+		{
+			"inputs": [],
+			"outputs": [
+				{
+					"id": "4dXGR8",
+					"channel": 0
+				}
+			],
+			"code": "file://buffer_a.frag",
+			"name": "Buffer A",
+			"description": "",
+			"type": "buffer"
+		},
+		{
+			"inputs": [],
+			"outputs": [],
+			"code": "file://common.frag",
+			"name": "Common",
+			"description": "",
+			"type": "common"
+		}
+	]
+}
