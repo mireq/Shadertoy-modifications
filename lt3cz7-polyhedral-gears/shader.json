@@ -1,0 +1,30 @@
+{
+	"ver": "0.1",
+	"info": {
+		"id": "lt3cz7",
+		"date": "1532096995",
+		"viewed": 1924,
+		"name": "Polyhedral Gears",
+		"username": "Shane",
+		"description": "Interlocked animated gears mapped onto the surface of a sphere via a polyhedral Goldberg arrangement.",
+		"likes": 102,
+		"published": 3,
+		"flags": 0,
+		"tags": []
+	},
+	"renderpass": [
+		{
+			"inputs": [],
+			"outputs": [
+				{
+					"id": "4dfGRr",
+					"channel": 0
+				}
+			],
+			"code": "file://image.frag",
+			"name": "Image",
+			"description": "",
+			"type": "image"
+		}
+	]
+}
